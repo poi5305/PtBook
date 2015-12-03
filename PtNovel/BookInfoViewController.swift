@@ -8,6 +8,16 @@ class BookInfoViewController: UIViewController {
     @IBOutlet weak var bookInfoView: UILabel!
     @IBOutlet weak var bookTextView: UITextView!
     @IBOutlet weak var locadingView: UIActivityIndicatorView!
+    @IBAction func onDownload(sender: UIBarButtonItem) {
+        if let checkURL = NSURL(string: "http://www.google.com") {
+            
+            if UIApplication.sharedApplication().openURL(checkURL) {
+                print("url successfully opened")
+            }
+        } else {
+            print("invalid url")
+        }
+    }
     
     var book: PtBook!
     

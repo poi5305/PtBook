@@ -11,6 +11,7 @@ class PtClient {
         for param in params {
             url += "/" + param
         }
+        url = url.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)!
         let config = NSURLSessionConfiguration.defaultSessionConfiguration()
         config.timeoutIntervalForRequest = timeout
         session = NSURLSession(configuration: config, delegate: nil, delegateQueue: nil)

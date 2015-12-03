@@ -21,6 +21,7 @@
 		A19B6B4F1C0FE42500E3D70C /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19B6B4D1C0FE42500E3D70C /* BookTableViewCell.swift */; };
 		A19B6B511C0FEA8A00E3D70C /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19B6B501C0FEA8A00E3D70C /* BookTableViewController.swift */; };
 		A19B6B521C0FEA8A00E3D70C /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19B6B501C0FEA8A00E3D70C /* BookTableViewController.swift */; };
+		A19B6B531C1036A800E3D70C /* BookInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13F84D71C0ECC59007B8215 /* BookInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -235,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19B6B521C0FEA8A00E3D70C /* BookTableViewController.swift in Sources */,
+				A19B6B531C1036A800E3D70C /* BookInfoViewController.swift in Sources */,
 				A19B6B4F1C0FE42500E3D70C /* BookTableViewCell.swift in Sources */,
 				A19B6B481C0EE15B00E3D70C /* PtClient.swift in Sources */,
 				A13F84EB1C0ECC59007B8215 /* PtNovelTests.swift in Sources */,
